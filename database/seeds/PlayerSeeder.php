@@ -10,7 +10,6 @@ class PlayerSeeder extends CsvSeeder
 		$this->table = 'players';
 		$this->filename = base_path().'/database/seeds/csv/FIFA-21.csv';
         $this->mapping = [
-            0 => 'id',
             1 => 'name',
             2 => 'nationality',
             3 => 'position',
