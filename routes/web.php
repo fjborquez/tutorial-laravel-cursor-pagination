@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/players/cursorPagination', 'PlayerController@cursorPagination');
+Route::get('/players/paginate', 'PlayerController@paginate');
